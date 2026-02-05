@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pradeep J - Java Full Stack Developer. Building reliable, scalable web apps with Java, Spring and modern front-end tools.">
+    <meta name="theme-color" content="#8a2be2">
+    <title>Pradeep Jayaraman - Portfolio</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect fill=%22%238a2be2%22 width=%22100%22 height=%22100%22/><text x=%2250%22 y=%2258%22 font-size=%2248%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial%22>PJ</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="main-header">
+        <nav>
+            <div class="header-left">
+                <a href="#" class="logo">PRADEEP J</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#career-objective">Objective</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content hero-flex container">
+            <div class="hero-left-col">
+                <h1 class="hero-name">Pradeep J</h1>
+                <div class="hero-role" aria-hidden="false">
+                    <!-- <marquee behavior="scroll" direction="left" scrollamount="6" style="width: 260px; color: #fff; font-weight: 600; background: none; border-radius: 18px; padding: 0;">
+                        <span class="role-pill">Java Full Stack Developer</span>
+                    </marquee> -->
+                    <div class="hero-role">
+                        <span class="role-pill">
+                        <span id="typing-role"></span>
+                        <span class="cursor">|</span>
+                        </span>
+                    </div>
+                </div>
+                <p class="lead">I build reliable, maintainable web applications and APIs using Java, Spring and modern front-end tools.</p>
+                <div class="hero-buttons">
+                    <a href="#projects-section" class="btn primary-btn">Explore Projects</a>
+                    <a href="#contact" class="btn outline-btn">Contact</a>
+                    <a href="#" class="btn btn-small" id="download-resume">Download Resume</a>
+                </div>
+                <div class="hero-tech" aria-hidden="false">
+                    <span class="tech">Java</span>
+                    <span class="tech">Spring</span>
+                    <span class="tech">React</span>
+                    <span class="tech">SQL</span>
+                </div>
+            </div>
+            <div class="hero-avatar-col">
+                <div class="hero-avatar" aria-hidden="false" role="img" aria-label="Pradeep Jayaraman">
+                    <img src="Me.jpeg" alt="Pradeep Jayaraman" class="hero-photo" id="hero-photo">
+                    <!-- Fallback SVG shown if image is missing -->
+                    <svg class="avatar-fallback" width="110" height="110" viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <defs>
+                            <linearGradient id="g1f" x1="0" x2="1" y1="0" y2="1">
+                                <stop offset="0%" stop-color="#3b0b4a"/>
+                                <stop offset="100%" stop-color="#8a60c7"/>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="55" cy="55" r="50" fill="url(#g1f)"/>
+                        <text x="50%" y="58%" text-anchor="middle" font-size="34" font-family="Playfair Display, serif" fill="#fff" font-weight="700">PJ</text>
+                    </svg>
+                    <!-- <button type="button" id="avatar-upload-btn" class="avatar-upload" aria-label="Upload avatar"> -->
+                    <!-- <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v8" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <input type="file" id="avatar-input" accept="image/*" style="display:none" aria-hidden="true" /> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="career-objective">
+        <div class="container">
+            <h2>CAREER OBJECTIVE</h2>
+            <p>Java Full Stack Developer focused on building scalable, maintainable web applications using Java, Spring Boot, and modern front-end tools. Seeking opportunities to deliver impact and grow technical expertise.</p>
+        </div>
+    </section>
+
+    <section id="skills-section">
+        <div class="container">
+            <h2>SKILLS</h2>
+
+            <div class="skills-category">
+                <h3>Core Java</h3>
+                <ul class="skill-bars">
+                    <li>
+                        <div class="skill-name">OOP & Collections</div>
+                        <div class="skill-track">
+                            <div class="skill-fill" style="--pct:90%"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">Multithreading & I/O</div>
+                        <div class="skill-track">
+                            <div class="skill-fill" style="--pct:85%"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">JDBC & Database</div>
+                        <div class="skill-track">
+                            <div class="skill-fill" style="--pct:80%"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>SQL & Databases</h3>
+                <ul class="skill-bars">
+                    <li>
+                        <div class="skill-name">Database Design</div>
+                        <div class="skill-track">
+                            <div class="skill-fill" style="--pct:90%"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">Queries & CRUD</div>
+                        <div class="skill-track">
+                            <div class="skill-fill" style="--pct:88%"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skill-name">PL/SQL & Stored Procs</div>
+                        <div class="skill-track">
+                            <div class="skill-fill" style="--pct:75%"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>Web Technologies</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects-section">
+        <div class="container">
+            <h2>PROJECTS</h2>
+            <div id="projects-root" aria-live="polite"></div>
+            <div class="no-js-projects">
+                <div class="project-item">
+                    <div class="project-header">
+                        <h3>Open AI Health Care</h3>
+                        <span class="project-date">01/2025 – 03/2025</span>
+                    </div>
+                    <div class="project-meta">
+                        <svg class="project-avatar" width="56" height="56" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <defs>
+                            <linearGradient id="pg1" x1="0" x2="1">
+                                <stop offset="0%" stop-color="#6a0dad"/>
+                                <stop offset="100%" stop-color="#06b6d4"/>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="28" cy="28" r="26" fill="url(#pg1)"/>
+                        <text x="50%" y="58%" text-anchor="middle" font-size="14" font-family="Inter, sans-serif" fill="#fff" font-weight="700">AI</text>
+                    </svg>
+                        <p class="project-tagline"><em>Integration of OpenAI with Chatbot System.</em></p>
+                    </div>
+                    <div class="project-badges">
+                        <span class="tech">OpenAI</span>
+                        <span class="tech">Java</span>
+                        <span class="tech">Spring Boot</span>
+                        <span class="tech">React</span>
+                    </div>
+                    <ul>
+                        <li><strong>AI-Powered Healthcare Assistant</strong> – Chatbot built using OpenAI to provide quick and accurate responses to patient queries.</li>
+                        <li><strong>Secure Data Handling</strong> – Focuses on protecting patient data with encryption and privacy measures to meet healthcare security standards.</li>
+                        <li><strong>Real-World Applications</strong> – Assists with appointment scheduling, symptom checking, medication reminders, and telemedicine support.</li>
+                        <li><strong>Patient History Management</strong> – Stores chat summaries and relevant details securely for continuity of care.</li>
+                        <li><strong>User-Friendly Interface</strong> – Simple web/mobile UI for patients and practitioners.</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2>CERTIFICATIONS</h2>
+            <ul>
+                <li>Certified C Language by CSC computer Software college.</li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+            <form class="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+                <input id="name" type="text" name="name" placeholder="Your Name" required>
+                <input id="email" type="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <div class="contact-actions">
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                    <button type="button" id="whatsapp-send" class="btn outline-btn">Send via WhatsApp</button>
+                </div>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/pradeep-jayaraman-217" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://github.com/Pradeepjayaraman1/Pradeepjayaraman1" target="_blank" aria-label="GitHub" rel="noreferrer">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Pradeep J. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" title="Back to top" aria-label="Back to top">↑</button>
+    <!-- React (UMD) for small interactive widgets -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="projects.react.js" defer></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
